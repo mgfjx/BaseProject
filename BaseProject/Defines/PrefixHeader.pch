@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  BaseProject
+//
+//  Created by mgfjx on 2017/4/24.
+//  Copyright © 2017年 XXL. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIColor+Hex.h"
+#import "UIView+AddFunc.h"
+
+#endif /* PrefixHeader_pch */

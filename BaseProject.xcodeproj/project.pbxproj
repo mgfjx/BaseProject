@@ -7,25 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		625F90C1FE76A613FA854F04 /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A39084B29CC6E07A62F54E9 /* libPods-BaseProject.a */; };
 		ECCA85FD1EAD994C003CADE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA85FC1EAD994C003CADE9 /* main.m */; };
 		ECCA86001EAD994C003CADE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA85FF1EAD994C003CADE9 /* AppDelegate.m */; };
-		ECCA86031EAD994C003CADE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA86021EAD994C003CADE9 /* ViewController.m */; };
-		ECCA86061EAD994C003CADE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCA86041EAD994C003CADE9 /* Main.storyboard */; };
 		ECCA86081EAD994C003CADE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCA86071EAD994C003CADE9 /* Assets.xcassets */; };
 		ECCA860B1EAD994C003CADE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCA86091EAD994C003CADE9 /* LaunchScreen.storyboard */; };
+		ECCA862A1EAD99E3003CADE9 /* BasicNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA86161EAD99E3003CADE9 /* BasicNavigationController.m */; };
+		ECCA862B1EAD99E3003CADE9 /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA86181EAD99E3003CADE9 /* BasicViewController.m */; };
+		ECCA86311EAD99E3003CADE9 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA86241EAD99E3003CADE9 /* MainTabBarViewController.m */; };
+		ECCA86471EAD9A89003CADE9 /* ArchiveObj.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA86371EAD9A89003CADE9 /* ArchiveObj.m */; };
+		ECCA86481EAD9A89003CADE9 /* Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA86391EAD9A89003CADE9 /* Encrypt.m */; };
+		ECCA86491EAD9A89003CADE9 /* RefreshTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA863B1EAD9A89003CADE9 /* RefreshTableView.m */; };
+		ECCA864A1EAD9A89003CADE9 /* TransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA863D1EAD9A89003CADE9 /* TransitionManager.m */; };
+		ECCA864B1EAD9A89003CADE9 /* UIAlertView+ActionBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA863F1EAD9A89003CADE9 /* UIAlertView+ActionBlock.m */; };
+		ECCA864C1EAD9A89003CADE9 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA86411EAD9A89003CADE9 /* UIColor+Hex.m */; };
+		ECCA864D1EAD9A89003CADE9 /* UIImageView+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA86431EAD9A89003CADE9 /* UIImageView+Scale.m */; };
+		ECCA864E1EAD9A89003CADE9 /* UIView+AddFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA86451EAD9A89003CADE9 /* UIView+AddFunc.m */; };
+		ECCA86741EADDFE9003CADE9 /* BaseTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA86731EADDFE9003CADE9 /* BaseTabBar.m */; };
+		ECCA867B1EADECB2003CADE9 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA867A1EADECB2003CADE9 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		137C44E4FB666BC7F5B5346C /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
+		4A39084B29CC6E07A62F54E9 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87CC23EF12240104EF2F8B8 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		ECCA85F81EAD994C003CADE9 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCA85FC1EAD994C003CADE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ECCA85FE1EAD994C003CADE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ECCA85FF1EAD994C003CADE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ECCA86011EAD994C003CADE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ECCA86021EAD994C003CADE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		ECCA86051EAD994C003CADE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECCA86071EAD994C003CADE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECCA860A1EAD994C003CADE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECCA860C1EAD994C003CADE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCA86151EAD99E3003CADE9 /* BasicNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicNavigationController.h; sourceTree = "<group>"; };
+		ECCA86161EAD99E3003CADE9 /* BasicNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicNavigationController.m; sourceTree = "<group>"; };
+		ECCA86171EAD99E3003CADE9 /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		ECCA86181EAD99E3003CADE9 /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		ECCA86231EAD99E3003CADE9 /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		ECCA86241EAD99E3003CADE9 /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		ECCA86361EAD9A89003CADE9 /* ArchiveObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchiveObj.h; sourceTree = "<group>"; };
+		ECCA86371EAD9A89003CADE9 /* ArchiveObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchiveObj.m; sourceTree = "<group>"; };
+		ECCA86381EAD9A89003CADE9 /* Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Encrypt.h; sourceTree = "<group>"; };
+		ECCA86391EAD9A89003CADE9 /* Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Encrypt.m; sourceTree = "<group>"; };
+		ECCA863A1EAD9A89003CADE9 /* RefreshTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshTableView.h; sourceTree = "<group>"; };
+		ECCA863B1EAD9A89003CADE9 /* RefreshTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshTableView.m; sourceTree = "<group>"; };
+		ECCA863C1EAD9A89003CADE9 /* TransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionManager.h; sourceTree = "<group>"; };
+		ECCA863D1EAD9A89003CADE9 /* TransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionManager.m; sourceTree = "<group>"; };
+		ECCA863E1EAD9A89003CADE9 /* UIAlertView+ActionBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+ActionBlock.h"; sourceTree = "<group>"; };
+		ECCA863F1EAD9A89003CADE9 /* UIAlertView+ActionBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+ActionBlock.m"; sourceTree = "<group>"; };
+		ECCA86401EAD9A89003CADE9 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		ECCA86411EAD9A89003CADE9 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		ECCA86421EAD9A89003CADE9 /* UIImageView+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Scale.h"; sourceTree = "<group>"; };
+		ECCA86431EAD9A89003CADE9 /* UIImageView+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Scale.m"; sourceTree = "<group>"; };
+		ECCA86441EAD9A89003CADE9 /* UIView+AddFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AddFunc.h"; sourceTree = "<group>"; };
+		ECCA86451EAD9A89003CADE9 /* UIView+AddFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AddFunc.m"; sourceTree = "<group>"; };
+		ECCA86501EAD9AB5003CADE9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		ECCA866E1EADDD47003CADE9 /* PublicDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicDefines.h; sourceTree = "<group>"; };
+		ECCA86721EADDFE9003CADE9 /* BaseTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBar.h; sourceTree = "<group>"; };
+		ECCA86731EADDFE9003CADE9 /* BaseTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBar.m; sourceTree = "<group>"; };
+		ECCA86791EADECB2003CADE9 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		ECCA867A1EADECB2003CADE9 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +73,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				625F90C1FE76A613FA854F04 /* libPods-BaseProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		078008DBEBFE72A287FDA684 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A39084B29CC6E07A62F54E9 /* libPods-BaseProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C5F3701DF3359D46CB32028 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A87CC23EF12240104EF2F8B8 /* Pods-BaseProject.debug.xcconfig */,
+				137C44E4FB666BC7F5B5346C /* Pods-BaseProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ECCA85EF1EAD994C003CADE9 = {
 			isa = PBXGroup;
 			children = (
 				ECCA85FA1EAD994C003CADE9 /* BaseProject */,
 				ECCA85F91EAD994C003CADE9 /* Products */,
+				0C5F3701DF3359D46CB32028 /* Pods */,
+				078008DBEBFE72A287FDA684 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +118,15 @@
 		ECCA85FA1EAD994C003CADE9 /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				ECCA86781EADEC94003CADE9 /* TestIgnore */,
 				ECCA85FE1EAD994C003CADE9 /* AppDelegate.h */,
 				ECCA85FF1EAD994C003CADE9 /* AppDelegate.m */,
-				ECCA86011EAD994C003CADE9 /* ViewController.h */,
-				ECCA86021EAD994C003CADE9 /* ViewController.m */,
-				ECCA86041EAD994C003CADE9 /* Main.storyboard */,
+				ECCA864F1EAD9AA7003CADE9 /* Defines */,
+				ECCA86341EAD9A89003CADE9 /* Unity */,
+				ECCA86711EADDFAD003CADE9 /* ThirdLib */,
+				ECCA86701EADDFA3003CADE9 /* Classes */,
+				ECCA866F1EADDF9C003CADE9 /* Views */,
+				ECCA86121EAD99E3003CADE9 /* Controllers */,
 				ECCA86071EAD994C003CADE9 /* Assets.xcassets */,
 				ECCA86091EAD994C003CADE9 /* LaunchScreen.storyboard */,
 				ECCA860C1EAD994C003CADE9 /* Info.plist */,
@@ -79,6 +143,84 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ECCA86121EAD99E3003CADE9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECCA86151EAD99E3003CADE9 /* BasicNavigationController.h */,
+				ECCA86161EAD99E3003CADE9 /* BasicNavigationController.m */,
+				ECCA86171EAD99E3003CADE9 /* BasicViewController.h */,
+				ECCA86181EAD99E3003CADE9 /* BasicViewController.m */,
+				ECCA86231EAD99E3003CADE9 /* MainTabBarViewController.h */,
+				ECCA86241EAD99E3003CADE9 /* MainTabBarViewController.m */,
+			);
+			name = Controllers;
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		ECCA86341EAD9A89003CADE9 /* Unity */ = {
+			isa = PBXGroup;
+			children = (
+				ECCA86361EAD9A89003CADE9 /* ArchiveObj.h */,
+				ECCA86371EAD9A89003CADE9 /* ArchiveObj.m */,
+				ECCA86381EAD9A89003CADE9 /* Encrypt.h */,
+				ECCA86391EAD9A89003CADE9 /* Encrypt.m */,
+				ECCA863A1EAD9A89003CADE9 /* RefreshTableView.h */,
+				ECCA863B1EAD9A89003CADE9 /* RefreshTableView.m */,
+				ECCA863C1EAD9A89003CADE9 /* TransitionManager.h */,
+				ECCA863D1EAD9A89003CADE9 /* TransitionManager.m */,
+				ECCA863E1EAD9A89003CADE9 /* UIAlertView+ActionBlock.h */,
+				ECCA863F1EAD9A89003CADE9 /* UIAlertView+ActionBlock.m */,
+				ECCA86401EAD9A89003CADE9 /* UIColor+Hex.h */,
+				ECCA86411EAD9A89003CADE9 /* UIColor+Hex.m */,
+				ECCA86421EAD9A89003CADE9 /* UIImageView+Scale.h */,
+				ECCA86431EAD9A89003CADE9 /* UIImageView+Scale.m */,
+				ECCA86441EAD9A89003CADE9 /* UIView+AddFunc.h */,
+				ECCA86451EAD9A89003CADE9 /* UIView+AddFunc.m */,
+			);
+			path = Unity;
+			sourceTree = "<group>";
+		};
+		ECCA864F1EAD9AA7003CADE9 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				ECCA86501EAD9AB5003CADE9 /* PrefixHeader.pch */,
+				ECCA866E1EADDD47003CADE9 /* PublicDefines.h */,
+			);
+			path = Defines;
+			sourceTree = "<group>";
+		};
+		ECCA866F1EADDF9C003CADE9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ECCA86721EADDFE9003CADE9 /* BaseTabBar.h */,
+				ECCA86731EADDFE9003CADE9 /* BaseTabBar.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ECCA86701EADDFA3003CADE9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ECCA86711EADDFAD003CADE9 /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdLib;
+			sourceTree = "<group>";
+		};
+		ECCA86781EADEC94003CADE9 /* TestIgnore */ = {
+			isa = PBXGroup;
+			children = (
+				ECCA86791EADECB2003CADE9 /* TestViewController.h */,
+				ECCA867A1EADECB2003CADE9 /* TestViewController.m */,
+			);
+			path = TestIgnore;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECCA860F1EAD994C003CADE9 /* Build configuration list for PBXNativeTarget "BaseProject" */;
 			buildPhases = (
+				D2C95A47B50CBDF08D0234E4 /* [CP] Check Pods Manifest.lock */,
 				ECCA85F41EAD994C003CADE9 /* Sources */,
 				ECCA85F51EAD994C003CADE9 /* Frameworks */,
 				ECCA85F61EAD994C003CADE9 /* Resources */,
+				5F3579C65C4F68CD14A1332E /* [CP] Embed Pods Frameworks */,
+				89880DD4337139632A40E35E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,34 +285,85 @@
 			files = (
 				ECCA860B1EAD994C003CADE9 /* LaunchScreen.storyboard in Resources */,
 				ECCA86081EAD994C003CADE9 /* Assets.xcassets in Resources */,
-				ECCA86061EAD994C003CADE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F3579C65C4F68CD14A1332E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89880DD4337139632A40E35E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2C95A47B50CBDF08D0234E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ECCA85F41EAD994C003CADE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECCA86031EAD994C003CADE9 /* ViewController.m in Sources */,
+				ECCA86481EAD9A89003CADE9 /* Encrypt.m in Sources */,
+				ECCA864C1EAD9A89003CADE9 /* UIColor+Hex.m in Sources */,
+				ECCA86741EADDFE9003CADE9 /* BaseTabBar.m in Sources */,
+				ECCA862A1EAD99E3003CADE9 /* BasicNavigationController.m in Sources */,
+				ECCA864A1EAD9A89003CADE9 /* TransitionManager.m in Sources */,
+				ECCA86311EAD99E3003CADE9 /* MainTabBarViewController.m in Sources */,
 				ECCA86001EAD994C003CADE9 /* AppDelegate.m in Sources */,
+				ECCA864E1EAD9A89003CADE9 /* UIView+AddFunc.m in Sources */,
+				ECCA862B1EAD99E3003CADE9 /* BasicViewController.m in Sources */,
+				ECCA867B1EADECB2003CADE9 /* TestViewController.m in Sources */,
+				ECCA86471EAD9A89003CADE9 /* ArchiveObj.m in Sources */,
+				ECCA864B1EAD9A89003CADE9 /* UIAlertView+ActionBlock.m in Sources */,
+				ECCA864D1EAD9A89003CADE9 /* UIImageView+Scale.m in Sources */,
 				ECCA85FD1EAD994C003CADE9 /* main.m in Sources */,
+				ECCA86491EAD9A89003CADE9 /* RefreshTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ECCA86041EAD994C003CADE9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ECCA86051EAD994C003CADE9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ECCA86091EAD994C003CADE9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -271,10 +467,14 @@
 		};
 		ECCA86101EAD994C003CADE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A87CC23EF12240104EF2F8B8 /* Pods-BaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4H95452AGN;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BaseProject/Defines/PrefixHeader.pch";
 				INFOPLIST_FILE = BaseProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiexiaolong.BaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,10 +483,14 @@
 		};
 		ECCA86111EAD994C003CADE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 137C44E4FB666BC7F5B5346C /* Pods-BaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4H95452AGN;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BaseProject/Defines/PrefixHeader.pch";
 				INFOPLIST_FILE = BaseProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiexiaolong.BaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +516,7 @@
 				ECCA86111EAD994C003CADE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
