@@ -11,5 +11,9 @@
 
 #import "UIColor+Hex.h"
 #import "UIView+AddFunc.h"
+#import "BasicViewController.h"
+#import "BasicNavigationController.h"
+#import "UMengShareManager.h"
+#import <UMSocialCore/UMSocialCore.h>
 
 #endif /* PrefixHeader_pch */

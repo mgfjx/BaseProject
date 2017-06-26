@@ -8,14 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol BasicViewControllerDelegete <NSObject>
-
-- (void)hidesBottomBar:(BOOL)hidden;
-
-@end
-
-@interface BasicViewController : UIViewController
-
-@property (nonatomic, weak) id delegate;
+@interface BasicViewController : UIViewController {
+    UIButton *backButton;
+    UILabel *title;
+    UIView *navigationView;
+}
 
 @end

@@ -8,5 +8,14 @@ target 'BaseProject' do
 #  pod 'SDWebImage', '~> 4.0.0'
 #  pod 'MBProgressHUD', '~> 1.0.0'
   pod 'MWPhotoBrowser', '~> 2.1.2'
+  
+  # U-Share SDK UI模块（分享面板，建议添加）
+  pod 'UMengUShare/UI', '~> 6.4.3'
+  
+  # 集成微信(完整版14.4M)
+  pod 'UMengUShare/Social/WeChat', '~> 6.4.3'
+  
+  # 集成QQ(精简版0.5M)
+  pod 'UMengUShare/Social/ReducedQQ' , '~> 6.4.3'
 
 end

@@ -10,7 +10,7 @@
 #import "BasicNavigationController.h"
 #import "BasicViewController.h"
 
-@interface MainTabBarViewController ()<UITabBarDelegate, BasicViewControllerDelegete>
+@interface MainTabBarViewController ()<UITabBarDelegate>
 
 @end
 
@@ -28,10 +28,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
+
+//    self.tabBar.hidden = YES;
     [self customTabBar];
     
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    self.navigationController.navigationBarHidden = YES;
 }
 
 - (void)customTabBar{
@@ -44,48 +49,37 @@
     tabBar.delegate = self;
     tabBar.tintColor = [UIColor colorWithRed:0.881 green:0.134 blue:0.875 alpha:1.000];
     tabBar.selectedIndex = 0;
-    [self.tabBar addSubview:tabBar];
-    self.m_tabBar = tabBar;
     
+    [self.view addSubview:tabBar];
+    self.m_tabBar = tabBar;
+    [self setValue:tabBar forKey:@"tabBar"];
+//    self.tabBar.hidden = YES;
+    
+}
+
+- (void)viewWillDisappear:(BOOL)animated{
+    [super viewDidDisappear:animated];
+    self.navigationController.navigationBarHidden = NO;
 }
 
 - (void)initViewControllers{
     
     NSArray *viewControllers = @[@"TestViewController",@"TestViewController",@"TestViewController",@"TestViewController",@"TestViewController"];
     
+    NSMutableArray *array = [NSMutableArray array];
     for (int i = 0; i < viewControllers.count; i++) {
         BasicViewController *catVC = [[NSClassFromString(viewControllers[i]) alloc] init];
-        catVC.title = [NSString stringWithFormat:@"ViewController%d", i];
+        catVC.title = [NSString stringWithFormat:@"VC%d", i];
         catVC.view.backgroundColor = [UIColor randomColor];
-        catVC.delegate = self;
-        UINavigationController * catNav = [[BasicNavigationController alloc] initWithRootViewController:catVC];
-        [self addChildViewController:catNav];
+        BasicNavigationController *catNav = [[BasicNavigationController alloc] initWithRootViewController:catVC];
+        [array addObject:catNav];
     }
-    
+    self.viewControllers = [array copy];
 }
 
 #pragma mark - UITabBarDelegate
 - (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item{
     self.selectedIndex = item.tag;
-}
-
-#pragma mark - BasicViewControllerDelegete
-- (void)hidesBottomBar:(BOOL)hidden{
-    BaseTabBar *tabBar = self.m_tabBar;
-    
-    CGFloat yPosition = 0;
-    if (hidden) {
-        yPosition = tabBar.y + tabBar.height;
-    }else{
-        yPosition = tabBar.y - tabBar.height;
-    }
-    
-//    [UIView animateWithDuration:0.25 animations:^{
-//        tabBar.y = yPosition;
-//    } completion:^(BOOL finished) {
-//        tabBar.hidden = hidden;
-//    }];
-    
 }
 
 @end

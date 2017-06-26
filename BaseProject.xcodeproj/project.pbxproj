@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		625F90C1FE76A613FA854F04 /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A39084B29CC6E07A62F54E9 /* libPods-BaseProject.a */; };
+		EC7125D71EE8F7A800B23C7A /* UMengShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7125D61EE8F7A800B23C7A /* UMengShareManager.m */; };
 		ECCA85FD1EAD994C003CADE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA85FC1EAD994C003CADE9 /* main.m */; };
 		ECCA86001EAD994C003CADE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA85FF1EAD994C003CADE9 /* AppDelegate.m */; };
 		ECCA86081EAD994C003CADE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCA86071EAD994C003CADE9 /* Assets.xcassets */; };
@@ -25,12 +26,18 @@
 		ECCA864E1EAD9A89003CADE9 /* UIView+AddFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA86451EAD9A89003CADE9 /* UIView+AddFunc.m */; };
 		ECCA86741EADDFE9003CADE9 /* BaseTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA86731EADDFE9003CADE9 /* BaseTabBar.m */; };
 		ECCA867B1EADECB2003CADE9 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA867A1EADECB2003CADE9 /* TestViewController.m */; };
+		ECEF9BAA1EB3325900882BC7 /* XXTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEF9BA91EB3325900882BC7 /* XXTabBarViewController.m */; };
+		ECEF9BB11EB3398D00882BC7 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEF9BB01EB3398D00882BC7 /* BaseTableViewController.m */; };
+		ECEF9BB41EB33AB500882BC7 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEF9BB31EB33AB500882BC7 /* ShareViewController.m */; };
+		ECEF9BB71EB33AF800882BC7 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEF9BB61EB33AF800882BC7 /* ListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		137C44E4FB666BC7F5B5346C /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		4A39084B29CC6E07A62F54E9 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87CC23EF12240104EF2F8B8 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		EC7125D51EE8F7A800B23C7A /* UMengShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMengShareManager.h; sourceTree = "<group>"; };
+		EC7125D61EE8F7A800B23C7A /* UMengShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMengShareManager.m; sourceTree = "<group>"; };
 		ECCA85F81EAD994C003CADE9 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCA85FC1EAD994C003CADE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ECCA85FE1EAD994C003CADE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +73,14 @@
 		ECCA86731EADDFE9003CADE9 /* BaseTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBar.m; sourceTree = "<group>"; };
 		ECCA86791EADECB2003CADE9 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		ECCA867A1EADECB2003CADE9 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		ECEF9BA81EB3325900882BC7 /* XXTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XXTabBarViewController.h; path = BaseProject/Controllers/XXTabBarViewController.h; sourceTree = SOURCE_ROOT; };
+		ECEF9BA91EB3325900882BC7 /* XXTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XXTabBarViewController.m; path = BaseProject/Controllers/XXTabBarViewController.m; sourceTree = SOURCE_ROOT; };
+		ECEF9BAF1EB3398D00882BC7 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		ECEF9BB01EB3398D00882BC7 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		ECEF9BB21EB33AB500882BC7 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		ECEF9BB31EB33AB500882BC7 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		ECEF9BB51EB33AF800882BC7 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		ECEF9BB61EB33AF800882BC7 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,9 +133,9 @@
 		ECCA85FA1EAD994C003CADE9 /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
-				ECCA86781EADEC94003CADE9 /* TestIgnore */,
 				ECCA85FE1EAD994C003CADE9 /* AppDelegate.h */,
 				ECCA85FF1EAD994C003CADE9 /* AppDelegate.m */,
+				ECCA86781EADEC94003CADE9 /* TestIgnore */,
 				ECCA864F1EAD9AA7003CADE9 /* Defines */,
 				ECCA86341EAD9A89003CADE9 /* Unity */,
 				ECCA86711EADDFAD003CADE9 /* ThirdLib */,
@@ -152,6 +167,8 @@
 				ECCA86181EAD99E3003CADE9 /* BasicViewController.m */,
 				ECCA86231EAD99E3003CADE9 /* MainTabBarViewController.h */,
 				ECCA86241EAD99E3003CADE9 /* MainTabBarViewController.m */,
+				ECEF9BA81EB3325900882BC7 /* XXTabBarViewController.h */,
+				ECEF9BA91EB3325900882BC7 /* XXTabBarViewController.m */,
 			);
 			name = Controllers;
 			path = controllers;
@@ -201,6 +218,8 @@
 		ECCA86701EADDFA3003CADE9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				EC7125D51EE8F7A800B23C7A /* UMengShareManager.h */,
+				EC7125D61EE8F7A800B23C7A /* UMengShareManager.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -217,6 +236,12 @@
 			children = (
 				ECCA86791EADECB2003CADE9 /* TestViewController.h */,
 				ECCA867A1EADECB2003CADE9 /* TestViewController.m */,
+				ECEF9BAF1EB3398D00882BC7 /* BaseTableViewController.h */,
+				ECEF9BB01EB3398D00882BC7 /* BaseTableViewController.m */,
+				ECEF9BB51EB33AF800882BC7 /* ListViewController.h */,
+				ECEF9BB61EB33AF800882BC7 /* ListViewController.m */,
+				ECEF9BB21EB33AB500882BC7 /* ShareViewController.h */,
+				ECEF9BB31EB33AB500882BC7 /* ShareViewController.m */,
 			);
 			path = TestIgnore;
 			sourceTree = "<group>";
@@ -250,7 +275,7 @@
 		ECCA85F01EAD994C003CADE9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = XXL;
 				TargetAttributes = {
 					ECCA85F71EAD994C003CADE9 = {
@@ -333,7 +358,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -343,20 +368,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC7125D71EE8F7A800B23C7A /* UMengShareManager.m in Sources */,
 				ECCA86481EAD9A89003CADE9 /* Encrypt.m in Sources */,
 				ECCA864C1EAD9A89003CADE9 /* UIColor+Hex.m in Sources */,
 				ECCA86741EADDFE9003CADE9 /* BaseTabBar.m in Sources */,
+				ECEF9BB71EB33AF800882BC7 /* ListViewController.m in Sources */,
 				ECCA862A1EAD99E3003CADE9 /* BasicNavigationController.m in Sources */,
 				ECCA864A1EAD9A89003CADE9 /* TransitionManager.m in Sources */,
 				ECCA86311EAD99E3003CADE9 /* MainTabBarViewController.m in Sources */,
 				ECCA86001EAD994C003CADE9 /* AppDelegate.m in Sources */,
 				ECCA864E1EAD9A89003CADE9 /* UIView+AddFunc.m in Sources */,
 				ECCA862B1EAD99E3003CADE9 /* BasicViewController.m in Sources */,
+				ECEF9BB11EB3398D00882BC7 /* BaseTableViewController.m in Sources */,
 				ECCA867B1EADECB2003CADE9 /* TestViewController.m in Sources */,
 				ECCA86471EAD9A89003CADE9 /* ArchiveObj.m in Sources */,
 				ECCA864B1EAD9A89003CADE9 /* UIAlertView+ActionBlock.m in Sources */,
 				ECCA864D1EAD9A89003CADE9 /* UIImageView+Scale.m in Sources */,
 				ECCA85FD1EAD994C003CADE9 /* main.m in Sources */,
+				ECEF9BAA1EB3325900882BC7 /* XXTabBarViewController.m in Sources */,
+				ECEF9BB41EB33AB500882BC7 /* ShareViewController.m in Sources */,
 				ECCA86491EAD9A89003CADE9 /* RefreshTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +423,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -441,6 +472,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -474,8 +506,49 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/BaseProject/Defines/PrefixHeader.pch";
 				INFOPLIST_FILE = BaseProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"AFNetworking\"",
+					"-l\"DACircularProgress\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"MJRefresh\"",
+					"-l\"MWPhotoBrowser\"",
+					"-l\"SDWebImage\"",
+					"-l\"SocialWeChat\"",
+					"-l\"UMSocialLog\"",
+					"-l\"WeChatSDK\"",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UMSocialCore\"",
+					"-framework",
+					"\"UMSocialNetwork\"",
+					"-framework",
+					"\"UShareUI\"",
+					"-weak_framework",
+					"\"Photos\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiexiaolong.BaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -490,8 +563,49 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/BaseProject/Defines/PrefixHeader.pch";
 				INFOPLIST_FILE = BaseProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"AFNetworking\"",
+					"-l\"DACircularProgress\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"MJRefresh\"",
+					"-l\"MWPhotoBrowser\"",
+					"-l\"SDWebImage\"",
+					"-l\"SocialWeChat\"",
+					"-l\"UMSocialLog\"",
+					"-l\"WeChatSDK\"",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UMSocialCore\"",
+					"-framework",
+					"\"UMSocialNetwork\"",
+					"-framework",
+					"\"UShareUI\"",
+					"-weak_framework",
+					"\"Photos\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiexiaolong.BaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

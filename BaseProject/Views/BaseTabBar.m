@@ -26,6 +26,8 @@
             for (int i = 0; i < imageNames.count; i++) {
                 UITabBarItem *item = [[UITabBarItem alloc] initWithTitle:titles[i] image:[UIImage imageNamed:imageNames[i]] tag:i];
                 [items addObject:item];
+                item.badgeColor = [UIColor redColor];
+                item.badgeValue = @"99+";
             }
         }else{
             //has selected images
