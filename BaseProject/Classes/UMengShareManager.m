@@ -20,8 +20,8 @@
 #define QQ_AppKey @"1105655362"
 
 // 新浪
-#define Sina_AppKey @""
-#define Sina_AppSecret @""
+#define Sina_AppKey @"1713720627"
+#define Sina_AppSecret @"350e97de6ec746a912ffbcabdaeeaddd"
 
 // 钉钉
 #define DingDing_AppKey @""
