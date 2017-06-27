@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface BaseTableViewController : UIViewController{
-    NSDictionary *titleVCDict;
+    NSArray *allKeys;
+    NSArray *allValues;
 }
 
 @end

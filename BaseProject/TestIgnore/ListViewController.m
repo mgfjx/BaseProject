@@ -17,9 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    titleVCDict = @{
-                    @"社交分享封装":@"ShareViewController",   
-                    };
+    allKeys = @[@"社交分享封装"];
+    allValues = @[@"ShareViewController",];
     
 }
 

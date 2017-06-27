@@ -19,13 +19,21 @@
     
     self.title = @"分享";
     
-    titleVCDict = @{@"分享测试": @""};
+    allKeys = @[@"微信聊天分享", @"微信朋友圈分享", @"微信收藏", @"QQ分享", @"QQZone分享", @"sina微博分享"];
+    allValues = @[@(UMSocialPlatformType_WechatSession),
+                  @(UMSocialPlatformType_WechatTimeLine),
+                  @(UMSocialPlatformType_WechatFavorite),
+                  @(UMSocialPlatformType_QQ),
+                  @(UMSocialPlatformType_Qzone),
+                  @(UMSocialPlatformType_Sina),
+                  ];
     
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
-    [self shareWebPageToPlatformType:UMSocialPlatformType_QQ];
+    UMSocialPlatformType type = (UMSocialPlatformType)[allValues[indexPath.row] integerValue];
+    [self shareWebPageToPlatformType:type];
     
 }
 
