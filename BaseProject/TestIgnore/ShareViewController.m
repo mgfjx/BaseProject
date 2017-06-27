@@ -25,7 +25,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
-    [self shareWebPageToPlatformType:UMSocialPlatformType_Sina];
+    [self shareWebPageToPlatformType:UMSocialPlatformType_QQ];
     
 }
 

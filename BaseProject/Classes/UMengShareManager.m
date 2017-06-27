@@ -17,7 +17,16 @@
 #define WeChat_AppSecret @"dd85842a95d1028a44da350bd48f49b8"
 
 // QQ
-#define QQ_AppKey @"1105655362"
+/** 配置URL types
+ *QQ/Qzone
+ 1、"tencent"+腾讯QQ互联应用appID
+ 2、“QQ”+腾讯QQ互联应用appID转换成十六进制（不足8位前面补0）	如appID：100424468
+ 举例:
+ 1、tencent100424468
+ 2、QQ05fc5b14	QQ05fc5b14为100424468转十六进制而来，因不足8位向前补0，然后加"QQ"前缀
+ */
+
+#define QQ_AppID @"1105655362"
 
 // 新浪
 #define Sina_AppKey @"1713720627"
@@ -82,7 +91,7 @@
     /* 设置分享到QQ互联的appID
      * U-Share SDK为了兼容大部分平台命名，统一用appKey和appSecret进行参数设置，而QQ平台仅需将appID作为U-Share的appKey参数传进即可。
      */
-    [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_QQ appKey:QQ_AppKey /*设置QQ平台的appID*/  appSecret:nil redirectURL:@"http://mobile.umeng.com/social"];
+    [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_QQ appKey:QQ_AppID /*设置QQ平台的appID*/  appSecret:nil redirectURL:@"http://mobile.umeng.com/social"];
     
     /* 设置新浪的appKey和appSecret */
     [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_Sina appKey:Sina_AppKey  appSecret:Sina_AppSecret redirectURL:@"https://sns.whalecloud.com/sina2/callback"];

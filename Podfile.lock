@@ -27,6 +27,9 @@ PODS:
   - UMengUShare/Core (6.4.3):
     - UMengUShare/Network
   - UMengUShare/Network (6.4.3)
+  - UMengUShare/Social/QQ (6.4.3):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedQQ
   - UMengUShare/Social/ReducedQQ (6.4.3):
     - UMengUShare/Core
   - UMengUShare/Social/ReducedSina (6.4.3):
@@ -46,7 +49,7 @@ DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
   - MJRefresh (~> 3.1.12)
   - MWPhotoBrowser (~> 2.1.2)
-  - UMengUShare/Social/ReducedQQ (~> 6.4.3)
+  - UMengUShare/Social/QQ
   - UMengUShare/Social/Sina (~> 6.4.3)
   - UMengUShare/Social/WeChat (~> 6.4.3)
   - UMengUShare/UI (~> 6.4.3)
@@ -60,6 +63,6 @@ SPEC CHECKSUMS:
   SDWebImage: '098e97e6176540799c27e804c96653ee0833d13c'
   UMengUShare: d39cb682598df87ebdd3c055d03d00eb0102d42c
 
-PODFILE CHECKSUM: c2be54afb293b01183a79641f66d94c744993906
+PODFILE CHECKSUM: b32b54e76d40d50246b6e8b20a50760fc22a31de
 
 COCOAPODS: 1.2.1

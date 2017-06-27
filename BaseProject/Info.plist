@@ -35,7 +35,7 @@
 			<string>qq</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>QQhttps://itunes.apple.com/cn/app/</string>
+				<string>QQ41E6F642</string>
 			</array>
 		</dict>
 		<dict>
@@ -46,6 +46,16 @@
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>wb1713720627</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>qq</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>tencent1105655362</string>
 			</array>
 		</dict>
 	</array>

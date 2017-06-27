@@ -15,8 +15,8 @@ target 'BaseProject' do
   # 集成微信(完整版14.4M)
   pod 'UMengUShare/Social/WeChat', '~> 6.4.3'
   
-  # 集成QQ(精简版0.5M)
-  pod 'UMengUShare/Social/ReducedQQ' , '~> 6.4.3'
+  # 集成QQ(完整版7.6M)
+  pod 'UMengUShare/Social/QQ'
   
   pod 'UMengUShare/Social/Sina', '~> 6.4.3'
 
