@@ -19,5 +19,7 @@ target 'BaseProject' do
   pod ‘UMengUShare/Social/ReducedQQ'
   
   pod 'UMengUShare/Social/Sina', '~> 6.4.3'
+  
+  pod 'SDAutoLayout'
 
 end
